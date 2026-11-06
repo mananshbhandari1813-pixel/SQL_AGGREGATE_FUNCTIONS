@@ -1,0 +1,36 @@
+/*
+1) Add the activity details.
+   a) Mention the topic as "SQL Aggregate Functions".
+   b) Mention the activity name as "Zoo Explorer".
+
+2) Create the zoo animal table.
+   a) Use `CREATE TABLE IF NOT EXISTS` to create the table safely.
+   b) Add columns for animal ID, name, species, age, and weight.
+   c) Use `PRIMARY KEY` for unique animal IDs.
+   d) Use `NOT NULL` to require important values.
+
+3) Insert animal records.
+   a) Add sample animals such as Lion, Tiger, Elephant, and Panda.
+   b) Store each animal’s species, age, and weight.
+
+4) Display all zoo animals.
+   a) Use `SELECT *` to view every row and column in the table.
+
+5) Use `DISTINCT`.
+   a) Display species values including repeats.
+   b) Use `SELECT DISTINCT` to show each species only once.
+   c) Use `COUNT(DISTINCT species)` to count unique species.
+
+6) Use `COUNT()`.
+   a) Count the total number of animals.
+   b) Use `WHERE age_years > 5` to count older animals.
+
+7) Use `SUM()` and `AVG()`.
+   a) Use `SUM(weight_kg)` to find the total animal weight.
+   b) Use `AVG(age_years)` to find the average animal age.
+
+8) Combine aggregate functions.
+   a) Count all animals and unique species.
+   b) Find total weight and average age.
+   c) Display all summary values in one result.
+*/
